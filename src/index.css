@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+ @font-face {
+  font-family: myFirstFont;
+  src: url("./font/Boldonse-Regular.ttf");
+}
+*{
+  font-family: myFirstFont;
+}

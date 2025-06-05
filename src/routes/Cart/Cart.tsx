@@ -25,7 +25,7 @@ const Cart = () => {
   return (
     <div className="flex flex-col items-center lg:mt-0 sm:mt-10">
       {items.length === 0 ? (
-        <h1 className="mb-10 text-3xl">Cart Is Empty</h1>
+        <h1 className="mb-10 mt-5 text-3xl">Cart Is Empty</h1>
         ) : (
           <>
             {items.map((item)=>(

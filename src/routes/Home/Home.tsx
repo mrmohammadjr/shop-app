@@ -27,12 +27,12 @@ const Home:React.FC = () => {
           <img src={Logo} className="lg:w-96 sm:w-48" />
         
         </div>
-          <h1 className="lg:text-7xl sm:text-2xl text-white"><b>Online Store</b></h1>
+          <h1 className="lg:text-4xl sm:text-2xl text-white"><b>Online Store</b></h1>
           <div className="flex flex-col items-center">
-          <span className="lg:text-7xl sm:text-xl my-8 text-white">Special discount from</span>
-          <span className="lg:text-7xl sm:text-xl my-4 text-orange-500">{year} - {month} - {day}</span>
-          <span className="lg:text-7xl sm:text-xl my-4 text-white">until</span>
-          <span className="lg:text-7xl sm:text-xl my-4 text-orange-500">2025 - 12 - 12</span>
+          <span className="lg:text-4xl sm:text-xl my-8 text-white">Special discount from</span>
+          <span className="lg:text-4xl sm:text-xl my-4 text-orange-500">{year} - {month} - {day}</span>
+          <span className="lg:text-4xl sm:text-xl my-4 text-white">until</span>
+          <span className="lg:text-4xl sm:text-xl my-4 text-orange-500">2025 - 12 - 12</span>
           </div>
           
       </div>

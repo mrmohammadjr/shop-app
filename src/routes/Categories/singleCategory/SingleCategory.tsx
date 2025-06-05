@@ -29,7 +29,7 @@ const SingleCategory = () => {
     <div>
       <div className="sm:ml-9 sm:w-[80%] sm:border-t-2 sm:border-violet-600 ">
       </div>
-      <h1 className="p-2 sm:text-2xl lg:text-5xl sm:my-3">Category - Tshirt</h1>
+      <h1 className="p-2 sm:text-2xl lg:text-3xl sm:my-3">Category - Tshirt</h1>
           <div className="">
     {flag === false ? (
       <div className="border border-violet-600 rounded-2xl lg:w-[90%] lg:h-[90%] sm:w-[90%] sm:h-[80%] flex flex-col items-center pt-5 sm:m-3">

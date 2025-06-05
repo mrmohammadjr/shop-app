@@ -18,9 +18,9 @@ export const Header = () => {
     <div className="sm:hidden lg:block bg-violet-600 w-full lg:h-36 px-5 py-1">
       <ul className="flex items-center gap-20 justify-between">
         <li onClick={()=> navigate("/")} ><img src={Logo} alt="logo" className="w-36"/></li>
-        <li className="text-white text-5xl">Everything You Need</li>
+        <li className="text-white text-3xl">Everything You Need</li>
         <ul className="flex justify-around gap-10 items-center">
-          <li><span className="text-2xl bg-red-500 absolute right-[120px] px-2 rounded-full top-3 text-white">{items.length}</span><i onClick={()=> navigate("/cart")} className="pi pi-shopping-cart text-white text-5xl"></i></li>
+          <li><span className="text-sm bg-red-500 absolute right-[110px] px-2 rounded-full top-7 text-white">{items.length}</span><i onClick={()=> navigate("/cart")} className="pi pi-shopping-cart text-white text-3xl"></i></li>
           <li>
            {status === "logout" ?(
             <button onClick={()=> navigate("/login")} className="bg-purple-950 text-sm text-white p-2.5 rounded-2xl">Login</button>

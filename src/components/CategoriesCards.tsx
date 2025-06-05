@@ -19,7 +19,7 @@ export const CategoriesCards = () => {
     ])
   return (
     <div className="flex justify-start gap-10">
-        <h1 onClick={()=> navigate("/categories")} className="lg:block md:block sm:hidden lg:text-3xl sm:text-sm border-2 border-black font-bold lg:p-3 sm:p-1 mx-5 my-2 rounded-2xl flex gap-3 items-center"><i className="pi pi-list"></i>All Categories</h1>
+        <h1 onClick={()=> navigate("/categories")} className="lg:block md:block sm:hidden lg:text-2xl sm:text-sm border-2 border-black font-bold lg:p-3 sm:p-1 mx-5 my-2 rounded-2xl flex gap-3 items-center"><i className="pi pi-list"></i>All Categories</h1>
       {data.map((item)=>(
         <h1 onClick={()=> navigate(`/categories/${item.id}`)} className="text-3xl border-2 p-3 mx-5 my-2 rounded-2xl lg:block sm:hidden">{item?.name}</h1>
       ))}

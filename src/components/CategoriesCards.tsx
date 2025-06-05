@@ -31,15 +31,15 @@ export const TopThree = () => {
   return (
     <div className="flex flex-col items-center gap-8 my-20 ">
       <div className="border-2 lg:w-[70%] sm:w-[80%] lg:h-[13rem] sm:h-[10rem] bg-gradient-to-r from-gray-300 to-gray-50 flex items-center justify-between overflow-hidden px-5">
-        <h1 className="lg:text-6xl sm:text-2xl sm:text-center">Best-selling gaming laptops</h1>
+        <h1 className="lg:text-5xl sm:text-2xl sm:text-center">Best-selling gaming laptops</h1>
         <img src={LopTop} className="w-[25%] sm:hidden lg:block "/>
       </div>
       <div className="border-2 lg:w-[70%] sm:w-[80%] lg:h-[13rem] sm:h-[10rem]  bg-gradient-to-l from-black to-blue-500 flex items-center px-5 justify-between overflow-hidden">
         <img src={Phone} className="w-[20%] sm:hidden lg:block "/>
-        <h1 className="lg:text-6xl sm:text-2xl sm:text-center sm:text-white">The best mid-range phones</h1>
+        <h1 className="lg:text-5xl sm:text-2xl sm:text-center sm:text-white">The best mid-range phones</h1>
       </div>
       <div className="border-2 lg:w-[70%] sm:w-[80%] lg:h-[13rem] sm:h-[10rem] bg-gradient-to-r from-red-500 to-yellow-300 flex items-center px-5 justify-between overflow-hidden">
-        <h1 className="lg:text-6xl sm:text-2xl sm:text-center">Stylish clothes for a party</h1>
+        <h1 className="lg:text-5xl sm:text-2xl sm:text-center">Stylish clothes for a party</h1>
         <img src={Coat} className="w-[20%] sm:hidden lg:block "/>
       </div>
     </div>
